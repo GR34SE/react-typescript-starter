@@ -11,12 +11,12 @@
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
   },
   "devDependencies": {
-    "@types/react": "^16.9.9",
-    "@types/react-dom": "^16.9.2",
+    "@types/react": "16.9.35",
+    "@types/react-dom": "16.9.8",
     "@typescript-eslint/eslint-plugin": "2.32.0",
     "@typescript-eslint/parser": "2.32.0",
     "eslint": "7.0.0",
-    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-import": "2.20.2",
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "4.0.0",
     "fork-ts-checker-webpack-plugin": "4.1.3",
