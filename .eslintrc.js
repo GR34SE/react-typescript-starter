@@ -3,23 +3,21 @@ module.exports = {
     plugins: [
         '@typescript-eslint',
         'react',
-        'react-hooks'
+        'react-hooks',
+        'eslint-plugin-import'
     ],
     env: {
-        browser: true,
-        jest: true
+        browser: true
     },
     extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:react/recommended',
     ],
     parserOptions: {
-        project: [
-            "tsconfig.json",
-        ],
+        project: ["tsconfig.json"],
         tsconfigRootDir: __dirname,
-        ecmaVersion: 2018,
-        sourceType: 'module',
+        ecmaVersion: 2020,
+        sourceType: "module",
         ecmaFeatures: {
             jsx: true
         }
