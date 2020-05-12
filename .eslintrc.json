@@ -4,14 +4,16 @@
     "@typescript-eslint",
     "react",
     "react-hooks",
-    "eslint-plugin-import"
+    "eslint-plugin-import",
+    "prettier"
   ],
   "env": {
     "browser": true
   },
   "extends": [
     "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
   ],
   "parserOptions": {
     "project": [
