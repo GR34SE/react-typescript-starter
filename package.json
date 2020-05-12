@@ -1,6 +1,6 @@
 {
   "name": "react-typescript-starter",
-  "description": "Clean React + TypeScript starter without, usage of create-react-app ⚛️",
+  "description": "Clean React + TypeScript starter, without usage of create-react-app ⚛",
   "version": "1.0.0",
   "main": "src/index.tsx",
   "repository": "https://github.com/GR34SE/react-typescript-starter.git",
