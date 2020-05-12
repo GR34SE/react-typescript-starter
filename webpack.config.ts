@@ -1,9 +1,9 @@
-const path = require("path");
-const webpack = require("webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
+import path from "path";
+import webpack, {Configuration} from "webpack";
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 
-module.exports = (env) => ({
+const webpackConfig = (env): Configuration => ({
     entry: "./src/index.tsx",
     resolve: {
         extensions: [".ts", ".tsx", ".js"],
@@ -39,3 +39,5 @@ module.exports = (env) => ({
         new ForkTsCheckerWebpackPlugin({eslint: true})
     ]
 });
+
+export default webpackConfig;
