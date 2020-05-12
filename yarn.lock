@@ -138,9 +138,9 @@
   resolved "https://registry.npmjs.org/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@^13.13.5":
+"@types/node@*", "@types/node@13.13.5":
   version "13.13.5"
-  resolved "https://registry.npmjs.org/@types/node/-/node-13.13.5.tgz#96ec3b0afafd64a4ccea9107b75bf8489f0e5765"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.5.tgz#96ec3b0afafd64a4ccea9107b75bf8489f0e5765"
   integrity sha512-3ySmiBYJPqgjiHA7oEaIo2Rzz0HrOZ7yrNO5HWyaE5q0lQ3BppDZ3N53Miz8bw2I7gh1/zir2MGVZBvpb1zq9g==
 
 "@types/prop-types@*":
@@ -198,9 +198,9 @@
   dependencies:
     source-map "^0.6.1"
 
-"@types/webpack-dev-server@^3.10.1":
+"@types/webpack-dev-server@3.10.1":
   version "3.10.1"
-  resolved "https://registry.npmjs.org/@types/webpack-dev-server/-/webpack-dev-server-3.10.1.tgz#93b7133cc9dab1ca1b76659f5ef8b763ad54c28a"
+  resolved "https://registry.yarnpkg.com/@types/webpack-dev-server/-/webpack-dev-server-3.10.1.tgz#93b7133cc9dab1ca1b76659f5ef8b763ad54c28a"
   integrity sha512-2nwwQ/qHRghUirvG/gEDkOQDa+d881UTJM7EG9ok5KNaYCjYVvy7fdaO528Lcym9OQDn75SvruPYVVvMJxqO0g==
   dependencies:
     "@types/connect-history-api-fallback" "*"
@@ -218,21 +218,9 @@
     "@types/source-list-map" "*"
     source-map "^0.6.1"
 
-"@types/webpack@*", "@types/webpack@^4.41.8":
+"@types/webpack@*", "@types/webpack@4.41.12", "@types/webpack@^4.41.8":
   version "4.41.12"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.12.tgz#0386ee2a2814368e2f2397abb036c0bf173ff6c3"
-  integrity sha512-BpCtM4NnBen6W+KEhrL9jKuZCXVtiH6+0b6cxdvNt2EwU949Al334PjQSl2BeAyvAX9mgoNNG21wvjP3xZJJ5w==
-  dependencies:
-    "@types/anymatch" "*"
-    "@types/node" "*"
-    "@types/tapable" "*"
-    "@types/uglify-js" "*"
-    "@types/webpack-sources" "*"
-    source-map "^0.6.0"
-
-"@types/webpack@^4.41.12":
-  version "4.41.12"
-  resolved "https://registry.npmjs.org/@types/webpack/-/webpack-4.41.12.tgz#0386ee2a2814368e2f2397abb036c0bf173ff6c3"
   integrity sha512-BpCtM4NnBen6W+KEhrL9jKuZCXVtiH6+0b6cxdvNt2EwU949Al334PjQSl2BeAyvAX9mgoNNG21wvjP3xZJJ5w==
   dependencies:
     "@types/anymatch" "*"
@@ -4991,9 +4979,9 @@ ts-loader@7.0.4:
     micromatch "^4.0.0"
     semver "^6.0.0"
 
-ts-node@^8.10.1:
+ts-node@8.10.1:
   version "8.10.1"
-  resolved "https://registry.npmjs.org/ts-node/-/ts-node-8.10.1.tgz#77da0366ff8afbe733596361d2df9a60fc9c9bd3"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.10.1.tgz#77da0366ff8afbe733596361d2df9a60fc9c9bd3"
   integrity sha512-bdNz1L4ekHiJul6SHtZWs1ujEKERJnHs4HxN7rjTyyVOFf3HaJ6sLqe6aPG62XTzAB/63pKRh5jTSWL0D7bsvw==
   dependencies:
     arg "^4.1.0"
