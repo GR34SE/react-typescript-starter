@@ -1,6 +1,6 @@
 import React from "react";
 
-const HelloWorld = () => (
+const HelloWorld: React.FC = () => (
     <>
         <h1>Hello World</h1>
 
