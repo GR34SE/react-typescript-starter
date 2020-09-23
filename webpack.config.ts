@@ -2,14 +2,13 @@ import path from "path";
 import webpack, {Configuration} from "webpack";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
+import {TsconfigPathsPlugin} from "tsconfig-paths-webpack-plugin";
 
 const webpackConfig = (env): Configuration => ({
     entry: "./src/index.tsx",
     resolve: {
         extensions: [".ts", ".tsx", ".js"],
-        alias: {
-            components: path.resolve(__dirname, "./src/components/")
-        }
+        plugins: [new TsconfigPathsPlugin()]
     },
     output: {
         path: path.join(__dirname, "/dist"),
