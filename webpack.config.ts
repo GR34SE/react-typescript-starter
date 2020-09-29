@@ -6,6 +6,7 @@ import {TsconfigPathsPlugin} from "tsconfig-paths-webpack-plugin";
 
 const webpackConfig = (env): Configuration => ({
     entry: "./src/index.tsx",
+    ...(env.production || !env.development ? {} : {devtool: "eval-source-map"}),
     resolve: {
         extensions: [".ts", ".tsx", ".js"],
         plugins: [new TsconfigPathsPlugin()]
