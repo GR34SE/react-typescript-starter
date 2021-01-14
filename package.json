@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@types/node": "13.13.40",
-    "@types/react": "16.14.2",
+    "@types/react": "17.0.0",
     "@types/react-dom": "16.9.10",
     "@types/webpack": "4.41.26",
     "@types/webpack-dev-server": "3.11.1",
