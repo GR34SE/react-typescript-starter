@@ -9,6 +9,8 @@ const webpackConfig = (env): Configuration => ({
     ...(env.production || !env.development ? {} : {devtool: "eval-source-map"}),
     resolve: {
         extensions: [".ts", ".tsx", ".js"],
+        //TODO waiting on https://github.com/dividab/tsconfig-paths-webpack-plugin/issues/61
+        //@ts-ignore
         plugins: [new TsconfigPathsPlugin()]
     },
     output: {
