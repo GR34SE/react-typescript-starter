@@ -16,7 +16,7 @@
     "@types/node": "13.13.52",
     "@types/react": "17.0.13",
     "@types/react-dom": "17.0.8",
-    "@types/webpack": "4.41.29",
+    "@types/webpack": "4.41.30",
     "@types/webpack-dev-server": "3.11.4",
     "@typescript-eslint/eslint-plugin": "4.28.1",
     "@typescript-eslint/parser": "4.28.1",
