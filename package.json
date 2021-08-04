@@ -1,16 +1,14 @@
 {
   "name": "react-typescript-starter",
-  "description": "Clean React + TypeScript starter, without usage of create-react-app ⚛",
+  "description": "Clean React 17 with TypeScript starter, without usage of create-react-app ⚛",
   "version": "1.0.0",
   "main": "src/index.tsx",
   "repository": "https://github.com/GR34SE/react-typescript-starter.git",
   "license": "MIT",
-  "private": false,
   "scripts": {
-    "start:dev": "webpack-cli serve --mode=development --env development --open --hot",
+    "develop": "webpack-cli serve --mode=development --env development --open --hot",
     "build": "webpack --mode=production --env production --progress",
-    "lint": "eslint './src/**/*.{ts,tsx}'",
-    "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
+    "lint": "eslint './src/**/*.{ts,tsx}'"
   },
   "devDependencies": {
     "@types/node": "14.17.9",
