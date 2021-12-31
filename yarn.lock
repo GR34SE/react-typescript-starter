@@ -294,26 +294,24 @@
   dependencies:
     "@types/node" "*"
 
-"@types/webpack-dev-middleware@*":
-  version "5.0.2"
-  resolved "https://registry.npmjs.org/@types/webpack-dev-middleware/-/webpack-dev-middleware-5.0.2.tgz#0f66566c2ca7d484891b4552c8a7b64a3044e3e2"
-  integrity sha512-S3WUtef//Vx6WETyWZkM45WqgRxWSaqbpWtPcKySNRhiQNyhCqM9EueggaMX3L9N2IbG4dJIK5PgYcAWUifUbA==
+"@types/webpack-dev-middleware@^5.0.2":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@types/webpack-dev-middleware/-/webpack-dev-middleware-5.3.0.tgz#4d65e1b6058e460bd6cfa3b45320e86654890c1c"
+  integrity sha512-SklLlklFBfTyIXo1iWXxzeytjlysWfj5QfIcRJrCc7MgzuCjnZOHXviQwe81iFGq9ZkCUXAg2fpbZdHhj5lSWA==
   dependencies:
-    "@types/connect" "*"
-    tapable "^2.1.1"
-    webpack "^5.38.1"
+    webpack-dev-middleware "*"
 
-"@types/webpack-dev-server@4.5.0":
-  version "4.5.0"
-  resolved "https://registry.npmjs.org/@types/webpack-dev-server/-/webpack-dev-server-4.5.0.tgz#52a983de97db81a38b7309a8cf8a730c3e02f28e"
-  integrity sha512-HMb6pZPANObue3LwbdpQLWzQyF9O0wntiPyXj4vGutlAbNKTXH4hDCHaZyfvfZDmFn+5HprrWHm1TGt3awNr/A==
+"@types/webpack-dev-server@4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@types/webpack-dev-server/-/webpack-dev-server-4.5.1.tgz#6f4adae500ed331292629443178d4f6b1c8d8bd8"
+  integrity sha512-NT5nGLIQsmGe6xucpqEEqrwM7E4UJo4Jxz+27DLjtJJg4QRKICmXs6DGKDC2I9HFleJV97mTglUMx4PjSBWBAw==
   dependencies:
     "@types/bonjour" "*"
     "@types/connect-history-api-fallback" "*"
     "@types/express" "*"
     "@types/serve-index" "*"
     "@types/serve-static" "*"
-    "@types/webpack-dev-middleware" "*"
+    "@types/webpack-dev-middleware" "^5.0.2"
     chokidar "^3.5.1"
     http-proxy-middleware "^2.0.0"
     webpack "*"
@@ -3721,7 +3719,7 @@ webpack-cli@4.9.1:
     rechoir "^0.7.0"
     webpack-merge "^5.7.3"
 
-webpack-dev-middleware@^5.3.0:
+webpack-dev-middleware@*, webpack-dev-middleware@^5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/webpack-dev-middleware/-/webpack-dev-middleware-5.3.0.tgz#8fc02dba6e72e1d373eca361623d84610f27be7c"
   integrity sha512-MouJz+rXAm9B1OTOYaJnn6rtD/lWZPy2ufQCH3BPs8Rloh/Du6Jze4p7AeLYHkVi0giJnYLaSGDC7S+GM9arhg==
@@ -3845,7 +3843,7 @@ webpack@5.65.0:
     watchpack "^2.3.1"
     webpack-sources "^3.2.2"
 
-webpack@^5, webpack@^5.38.1:
+webpack@^5:
   version "5.57.1"
   resolved "https://registry.npmjs.org/webpack/-/webpack-5.57.1.tgz#ead5ace2c17ecef2ae8126f143bfeaa7f55eab44"
   integrity sha512-kHszukYjTPVfCOEyrUthA3jqJwduY/P3eO8I0gMNOZGIQWKAwZftxmp5hq6paophvwo9NoUrcZOecs9ulOyyTg==
