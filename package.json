@@ -12,7 +12,7 @@
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
   },
   "devDependencies": {
-    "@types/node": "16.11.29",
+    "@types/node": "16.11.30",
     "@types/react": "17.0.44",
     "@types/react-dom": "17.0.16",
     "@types/webpack": "5.28.0",
