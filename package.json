@@ -1,6 +1,6 @@
 {
   "name": "react-typescript-starter",
-  "description": "Clean React 17 with TypeScript starter, without usage of create-react-app ⚛",
+  "description": "Minimalist React 18 starter template with TypeScript ⚛",
   "version": "1.0.0",
   "main": "src/index.tsx",
   "repository": "https://github.com/GR34SE/react-typescript-starter.git",
@@ -8,8 +8,8 @@
   "scripts": {
     "develop": "webpack-cli serve --mode=development --env development --open --hot",
     "build": "webpack --mode=production --env production --progress",
-    "lint": "eslint './src/**/*.{ts,tsx}'",
-    "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix"
+    "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
+    "lint:fix": "eslint './src/**/*.{ts,tsx,js,jsx}' --fix"
   },
   "devDependencies": {
     "@types/node": "16.11.33",
@@ -25,6 +25,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.5.0",
+    "eslint-webpack-plugin": "3.1.1",
     "fork-ts-checker-webpack-plugin": "7.2.11",
     "html-webpack-plugin": "5.5.0",
     "prettier": "2.6.2",
