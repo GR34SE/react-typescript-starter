@@ -30,7 +30,7 @@
     "html-webpack-plugin": "5.5.0",
     "prettier": "2.6.2",
     "ts-loader": "9.3.0",
-    "ts-node": "10.7.0",
+    "ts-node": "10.8.0",
     "tsconfig-paths-webpack-plugin": "3.5.2",
     "typescript": "4.6.4",
     "webpack": "5.72.1",
