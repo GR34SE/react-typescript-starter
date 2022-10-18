@@ -284,10 +284,10 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-16.10.3.tgz#7a8f2838603ea314d1d22bb3171d899e15c57bd5"
   integrity sha512-ho3Ruq+fFnBrZhUYI46n/bV2GjwzSkwuT4dTf0GkuNFmnb8nq4ny2z9JEVemFi6bdEJanHLlYfy9c6FN9B9McQ==
 
-"@types/node@16.11.66":
-  version "16.11.66"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.66.tgz#97f6891c3b8770e21163b93918d57fd1b799e235"
-  integrity sha512-+xvMrGl3eAygKcf5jm+4zA4tbfEgmKM9o6/glTmN0RFVdu2VuFXMYYtRmuv3zTGCgAYMnEZLde3B7BTp+Yxcig==
+"@types/node@16.11.67":
+  version "16.11.67"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.67.tgz#b499556b395182e4ab9e591cb0b4d2561580a4b0"
+  integrity sha512-A+ogdyb7/N8SzE4H9o6yXqSez+acp2XCYSv/PBx2yP7yUVRWf+hO4lSqwt27G9F+4KxnWxybJIe+4FV+Zv+iEg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
