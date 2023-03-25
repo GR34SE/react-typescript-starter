@@ -301,10 +301,10 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-16.10.3.tgz#7a8f2838603ea314d1d22bb3171d899e15c57bd5"
   integrity sha512-ho3Ruq+fFnBrZhUYI46n/bV2GjwzSkwuT4dTf0GkuNFmnb8nq4ny2z9JEVemFi6bdEJanHLlYfy9c6FN9B9McQ==
 
-"@types/node@16.18.19":
-  version "16.18.19"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.19.tgz#5a2c0c2fdcfcf1ff96b8f43447c81b40aa65ba2f"
-  integrity sha512-Qd2EhjbjOKZuHMn+IJc2EUYwdkJw9kgsZ3k2zdyi2uIBH0hU00Yd9T5rpMq6KRiFvpscpXUQRjJSaJHH29ei8A==
+"@types/node@16.18.20":
+  version "16.18.20"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.20.tgz#8d69761aca4cf40a54dcd5c70ed313f393f8d6b5"
+  integrity sha512-9fH66vSJnF563exTu3y1g2IbDz1vCj01Lbqms97r8j0qzfFisT2biypSfybVv/eYrtTB74x9xQTdRU8RyMiRrg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
