@@ -1,11 +1,12 @@
 import path from "path";
-import webpack, {Configuration} from "webpack";
+import webpack from "webpack";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 import ESLintPlugin from "eslint-webpack-plugin";
 import {TsconfigPathsPlugin} from "tsconfig-paths-webpack-plugin";
+import packageJson from "./package.json" with {type: "json"};
 
-const webpackConfig = (env): Configuration => ({
+const webpackConfig = (env): webpack.Configuration => ({
     entry: "./src/index.tsx",
     ...(env.production || !env.development ? {} : {devtool: "eval-source-map"}),
     resolve: {
@@ -13,7 +14,7 @@ const webpackConfig = (env): Configuration => ({
         plugins: [new TsconfigPathsPlugin()]
     },
     output: {
-        path: path.join(__dirname, "/dist"),
+        path: path.join(import.meta.dirname, "/dist"),
         filename: "build.js"
     },
     module: {
@@ -34,8 +35,8 @@ const webpackConfig = (env): Configuration => ({
         }),
         new webpack.DefinePlugin({
             "process.env.PRODUCTION": env.production || !env.development,
-            "process.env.NAME": JSON.stringify(require("./package.json").name),
-            "process.env.VERSION": JSON.stringify(require("./package.json").version)
+            "process.env.NAME": JSON.stringify(packageJson.name),
+            "process.env.VERSION": JSON.stringify(packageJson.version)
         }),
         new ForkTsCheckerWebpackPlugin(),
         new ESLintPlugin({files: "./src/**/*.{ts,tsx,js,jsx}"})
