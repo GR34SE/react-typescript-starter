@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@types/node": "22.15.21",
-    "@types/react": "19.1.4",
+    "@types/react": "19.1.5",
     "@types/react-dom": "19.1.5",
     "@types/webpack": "5.28.5",
     "@types/webpack-dev-server": "4.7.2",
